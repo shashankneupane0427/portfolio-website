@@ -4,23 +4,14 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Intro from '../components/Intro';
 import Project from '../components/Project';
-import Head from 'next/head';
+import MetaHead from '../components/MetaHead';
 import Skills from '../components/Skills';
 import projectsData from '../data/projects.json';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-      <title>Shashank Neupane</title>
-      <meta name="title" content="Shashank Neupane" />
-      <meta name="description" content="Hey, I'm Shashank. A Full-Stack Web Developer from Nepal. I work with JavaScript, TypeScript, React, Node.js & MongoDB." />
-      <meta property="og:title" content="Shashank Neupane" />
-      <meta property="og:description" content="Hey, I'm Shashank. A Full-Stack Web Developer from Nepal. I work with JavaScript, TypeScript, React, Node.js & MongoDB." />
-      <meta property="og:image" content="/public/images/shashank-graph.png" />
-      <meta property="og:url" content="suryashashank.com.np" />
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+     <MetaHead/>
 
 
       <Intro />
