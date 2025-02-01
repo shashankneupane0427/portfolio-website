@@ -1,65 +1,53 @@
-<a href="https://samippoudel.com.np/">
-    <img src="./public/samip_poudel_open_graph.png" alt="portfolio open graph">
-  </a>
+# Surya Shashank Neupane - Portfolio
 
-  <h2 align="center">Samip Poudel's Portfolio Website</h2>
+<img src="/public/images/website.png">
 
-  <p align="center">Portfolio website with built-in blog</p>
+Welcome to my portfolio website! This site showcases my skills, projects, and experiences as a Software Engineer and Web Developer. I am currently exploring Artificial Intelligence (AI) and expanding my knowledge in modern technologies.
 
-  <p align="center">
-    <a href="https://samippoudel.com.np">View Demo</a>
-    ·
-    <a href="https://github.com/SamipPoudel58/next-portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/SamipPoudel58/next-portfolio/issues">Request Feature</a>
-  </p>
+🚀 **Tech Stack**
 
-> The previous version of this portfolio ( Made using Gatsby.js, Contentful and Sass) can be found [here](https://github.com/SamipPoudel58/portfolio).
+*   **Frontend:** React, Next.js, Sass
+*   **Styling:** SCSS/Sass
+*   **Deployment:** Vercel (or any preferred hosting service)
 
-## ⚙️ Tech Stack
+🌐 **Live Website**
 
-- Next.js
-- Sass + TailwindCSS
-- MDX
-- Typescript
+Visit Portfolio (Replace `#` with the actual URL of your portfolio site.)
 
-## 🚀 Local Development
 
-Run the project in your machine locally.
+🛠 **Installation & Setup**
 
-### Step 1: Clone the repository
+1.  Clone the repository:
 
-Clone the repo locally using:
+    ```bash
+    git clone [https://github.com/shashankneupane0427/Portfolio-Website.git](https://github.com/shashankneupane0427/Portfolio-Website.git)
+    ```
 
-```sh
-git clone https://github.com/SamipPoudel58/next-portfolio.git
-```
+2.  Install dependencies:
 
-### Step 2: Install Dependencies
+    ```bash
+    npm install  # or yarn install
+    ```
 
-Install dependencies in the root folder
+3.  Start the development server:
 
-```sh
-cd next-portfolio
-npm install
-```
+    ```bash
+    npm run dev  # or yarn dev
+    ```
 
-### Step 3: Run the server
+4.  Open `http://localhost:3000` in your browser.
 
-```sh
-npm run dev
-```
+📜 **Features**
 
-## 🙏 Contributing
+*   Dynamic and interactive UI built with React & Next.js
+*   Styled using Sass for maintainable and scalable styles
+*   Optimized performance with Next.js SSR and static generation
+*   Mobile-responsive design
+*   SEO-friendly with metadata and Open Graph tags
 
-I'd love if you'd contribute to the project.
+📬 **Contact Me**
 
-After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+Feel free to connect with me:
 
-### Pushing the changes
-
-```bash
-git add .
-git commit -m "feat: added new stuff"
-git push YOUR_REPO_URL BRANCH_NAME
-```
+*   GitHub: [https://github.com/shashankneupane0427/](https://github.com/shashankneupane0427/)
+*   Email: suryaneupane0427@gmail.com
