@@ -1,0 +1,182 @@
+.projects {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 1.25rem 1.5625rem 3.75rem;
+  }
+  @media only screen and (max-width: 600px) {
+    padding: 1.25rem 1.25rem 3.75rem;
+  }
+
+  &__project {
+    display: flex;
+    align-items: flex-start;
+    gap: 3.875rem;
+    @media only screen and (max-width: 1024px) {
+      // justify-content: center;
+      gap: 2.5rem;
+    }
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    // @media only screen and (max-width: 600px) {
+    //   padding: 3rem 2rem;
+    // }
+  }
+  &__image {
+    display: block;
+    width: 100%;
+    max-height: 260px;
+    max-width: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  &__image-animate {
+    @media (prefers-reduced-motion: no-preference) {
+      animation: moveUp 1s 1;
+    }
+  }
+
+  &__detail {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 800px) {
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-family: 'IBM Plex Sans';
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    color: var(--c-black-dark);
+    margin-bottom: 0.625rem;
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 1.875rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__description {
+    color: var(--c-black-md);
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 1.25rem;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+
+  &__stacks {
+    display: flex;
+    gap: 0.625rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    @media only screen and (max-width: 600px) {
+      gap: 0.3125rem;
+    }
+  }
+
+  &__stack {
+    background-color: var(--c-gray-light);
+    color: var(--c-black-md);
+    font-size: 1.125rem;
+    line-height: 1;
+    padding: 0.625rem 0.9375rem;
+    font-weight: bold;
+    @media only screen and (max-width: 1024px) {
+      font-size: 0.75rem;
+      padding: 0.5rem 0.625rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 0.625rem;
+    &-live {
+      display: block;
+      background-color: var(--c-primary);
+      color: var(--c-off-white);
+      font-size: 1.125rem;
+      font-weight: bold;
+      padding: 0.625rem 1.375rem;
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 0.875rem;
+      }
+
+      &:hover {
+        background-color: var(--c-off-white);
+        color: var(--c-primary);
+        border: 2px solid var(--c-primary);
+      }
+    }
+
+    &-more {
+      display: block;
+      background-color: var(--c-off-white);
+      color: var(--c-primary);
+      font-size: 1.125rem;
+      font-weight: bold;
+      padding: 0.625rem 1.375rem;
+      border: 2px solid var(--c-primary);
+      transition: all 0.3s ease;
+      @media only screen and (max-width: 1024px) {
+        font-size: 0.875rem;
+      }
+
+      &:hover {
+        background-color: var(--c-primary);
+        color: var(--c-off-white);
+      }
+    }
+  }
+
+  &__allProjects {
+    color: var(--c-black-md);
+
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: var(--c-black-dark);
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      color: var(--c-black-md);
+
+      &:hover {
+        color: var(--c-black-dark);
+      }
+    }
+    svg {
+      width: 1.875rem;
+      @media only screen and (max-width: 600px) {
+        width: 1.25rem;
+      }
+    }
+  }
+}

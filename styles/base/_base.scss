@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --c-bg-light: #1a2f55;
+  --c-bg-dark: #0d1d3a;
+
+  --c-primary: #07b0ff;
+  --c-primary-light: #0ed2aa;
+  --c-primary-dark: #0ea5e9;
+
+  --c-text-black: #1e1e1e;
+  --c-text-gray: #5a5a5a;
+  --c-gray-light: #dcdcdc;
+  --c-off-white: #f9fafb;
+
+  --c-blockquote: #f1f5f9;
+  --c-code: #1f2937;
+  --c-code-title: #2c394c;
+
+  --c-table-border: #cbd5e1;
+
+  --c-black: #000000;
+  --c-black-dark: #222222;
+  --c-black-md: #444444;
+}
+
+body.dark {
+  --c-off-white: #111111;
+  --c-gray-light: #222222;
+
+  --c-blockquote: #222222;
+  --c-code: #18181b;
+  --c-code-title: hsl(240, 6%, 13%);
+
+  --c-table-border: #3f3f46;
+
+  --c-black: #ffffff;
+  --c-black-dark: #eaeaea;
+  --c-black-md: #888888;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--c-off-white);
+  color: var(--c-black-md);
+  transition: background-color 0.4s ease;
+
+  font-family: 'Karla', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7 !important;
+}
+
+::selection {
+  background-color: var(--c-primary);
+  color: #ffffff;
+}
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: disc;
+}
