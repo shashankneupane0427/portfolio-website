@@ -21,7 +21,7 @@ export default function Document() {
           crossOrigin="anonymous"
         />
 
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
       </Head>
       <body>
         <Main />

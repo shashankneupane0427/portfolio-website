@@ -9,10 +9,10 @@ import data from '../data/projects.json';
 const Projects: NextPage = () => (
   <div>
     <MetaHead
-      title="Projects | Samip Poudel"
-      ogtitle="Projects made by Samip Poudel"
+      title="Shashank Neupane | Projects"
+      ogtitle="Projects made by Shashank Neupane"
       description="These are some of the projects that I have built over the years. These project reflect my passion in software and design. My most used tools are Javascript, React, Node and MongoDB."
-      url="https://samip.vercel.app/projects"
+      url="https://suryashashank.com.np/projects"
     />
     <Navigation />
     <div className="py-8"></div>
