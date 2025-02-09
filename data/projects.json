@@ -19,12 +19,12 @@
   },
   {
     "id": 3,
-    "title": "Ghar Bazar",
-    "description": "Product Showcase and Management Website",
+    "title": "Eco Home",
+    "description": "Real Estate Booking and Management Website",
     "image": "/images/project1.png",
     "stacks": [],
-    "link": "https://ghar-bazar.vercel.app/",
-    "github": "https://github.com/shashankneupane0427/Ghar-Bazar"
+    "link": "https://eco-home-real-estate.vercel.app/",
+    "github": "https://github.com/shashankneupane0427/Eco-Home"
   },
   {
     "id": 4,
