@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Abhishek's/Portfolio",
-    description: 'Abhishek Shrestha/Porfolio',
+    title: "Shashank Neupane",
+    description: 'Shashank Neupane | Portfolio',
     icons: {
-        icon: '/logo.svg',
+        icon: '/logo.png'
     },
 };
 

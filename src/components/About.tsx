@@ -95,7 +95,7 @@ function About() {
                                     variants={textRevealVariants}
                                     className='text-lg sm:text-xl md:text-3xl font-bold'
                                 >
-                                    👋 I&apos;m Abhishek Shrestha
+                                    👋 I&apos;m Shashank Neupane
                                 </motion.h2>
                             </div>
                             <div className='overflow-hidden'>
@@ -106,10 +106,10 @@ function About() {
                                     <p>
                                         A <strong>Full Stack Developer</strong>{' '}
                                         passionate about building
-                                        <strong>efficient, scalable</strong> web
+                                        <strong> efficient, scalable</strong> web
                                         applications. Skilled in{' '}
                                         <strong>
-                                            Next.js, TypeScript, React.js,
+                                            Next.js, TypeScript, Python, React.js,
                                             Node.js, Express.js, MongoDB,
                                             PostgreSQL, and Prisma
                                         </strong>
@@ -124,7 +124,7 @@ function About() {
                                         </strong>{' '}
                                         (affiliated with{' '}
                                         <strong>
-                                            Birmingham City University, UK
+                                            Tribhuvan University    
                                         </strong>
                                         ), I&apos;m eager to apply my skills in{' '}
                                         <strong>

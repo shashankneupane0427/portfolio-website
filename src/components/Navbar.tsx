@@ -1,6 +1,5 @@
 'use client';
 
-import { Logo } from '@/utils/logo';
 import React, { useEffect, useRef, useState } from 'react';
 import DarkMode from './DarkMode';
 import { HiMenuAlt3 } from 'react-icons/hi';
@@ -233,7 +232,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                 className='absolute flex justify-between w-full max-md:px-4 items-center'
             >
                 <div className='size-12 py-2 max-md:size-10 max-sm:size-8'>
-                    <Logo />
+                   
                 </div>
 
                 <div className='max-md:hidden w-[40%] max-lg:w-[50%]'>

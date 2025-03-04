@@ -7,7 +7,7 @@ import { FileUserIcon } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub, FaXTwitter } from 'react-icons/fa6';
+import { FaGithub} from 'react-icons/fa6';
 import { IoMdMail } from 'react-icons/io';
 import Link from 'next/link';
 
@@ -233,7 +233,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                     {/* Name and Role */}
                     <div className='text-center mb-6 mt-24'>
                         <h1 className='text-3xl font-bold mb-2'>
-                            ABHISHEK SHRESTHA
+                            SHASHANK NEUPANE
                         </h1>
                         <h2 className='text-xl'>FULL STACK DEVELOPER</h2>
                     </div>
@@ -241,7 +241,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                     {/* Social Links */}
                     <div className='flex gap-6 mb-6'>
                         <Link
-                            href='https://github.com/bcuAbhishek'
+                            href='https://github.com/shashankneupane0427'
                             target='_blank'
                             rel='noopener noreferrer'
                             className='hover:scale-110 transition-transform'
@@ -249,7 +249,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             <FaGithub size={24} />
                         </Link>
                         <Link
-                            href='https://www.linkedin.com/in/obusek-shrestha'
+                            href='https://www.linkedin.com/in/shashankneupane0427/'
                             target='_blank'
                             rel='noopener noreferrer'
                             className='hover:scale-110 transition-transform'
@@ -262,10 +262,10 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             rel='noopener noreferrer'
                             className='hover:scale-110 transition-transform'
                         >
-                            <FaXTwitter size={24} />
+                           
                         </Link>
                         <Link
-                            href='mailto:learnobusek@gmail.com'
+                            href='mailto:suryaneupane0427@gmail.com'
                             className='hover:scale-110 transition-transform'
                         >
                             <IoMdMail size={24} />
@@ -283,8 +283,8 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
 
                     <div className='fixed bottom-0 left-1/2 -translate-x-1/2 size-96'>
                         <Image
-                            src={`/photo-${darkMode ? 'dark' : 'light'}.png`}
-                            alt='profile'
+                            src=''
+                            alt='profileee'
                             fill
                             className='object-contain'
                             priority={true}
@@ -300,7 +300,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             className='flex flex-nowrap justify-between gap-4 max-md:max-w-[96%] max-w-[90%]  mx-auto uppercase'
                         >
                             <div className='hover-text flex justify-center'>
-                                {`abhishek`.split('').map((char, index) => (
+                                {`shashank`.split('').map((char, index) => (
                                     <span
                                         key={index}
                                         className='relative inline-block'
@@ -315,7 +315,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                                 ))}
                             </div>
                             <div className='hover-text flex justify-center'>
-                                {`shrestha`.split('').map((char, index) => (
+                                {`neupane`.split('').map((char, index) => (
                                     <span
                                         key={index}
                                         className='relative inline-block'
@@ -334,40 +334,36 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             id='quote'
                             className='flex flex-nowrap justify-between text-base sm:text-2xl md:text-[28px] lg:text-4xl xl:text-[42px] font-medium w-[90%] sm:w-[90%] md:w-[85%] lg:w-[78%] mx-auto mt-2 sm:-mt-4'
                         >
-                            <span className='text-center sm:text-left'>
-                                &quot;Do what you love
-                            </span>
-                            <span className='text-center sm:text-right'>
-                                Love what you do&quot;
-                            </span>
+                            
                         </div>
                         <div
                             id='boxes'
                             className='flex justify-between h-[260px] sm:h-[300px] md:h-[350px] lg:h-[370px] w-[80%] max-md:w-full mx-auto mt-4 relative px-4'
                         >
-                            <span className='absolute w-[90%] left-1/2 transform -translate-x-1/2 top-2 h-[1px] z-10 bg-black dark:bg-white' />
+                            
                             <div className='flex flex-col gap-4 w-1/2'>
                                 <div className='relative box left-box bg-gradient-to-b from-[#BAE1EE] to-[#8CBED6] dark:gradient h-1/2 rounded-lg'>
                                     <div className='flex flex-col mt-4 ml-2 xl:ml-[18%] mxl:ml-[24%] lg:ml-[16%] md:ml-[12%] sm:ml-[12%]'>
                                         <div className='flex flex-col font-medium text-sm sm:text-base md:text-xl lg:text-2xl xl:text-4xl'>
                                             <span className='relative lg:left-[20%] left-8 box-title'>
-                                                UI/UX
+                                                AI /ML
                                             </span>
                                             <span className='box-title'>
-                                                Designer
+                                                Enthusiast
                                             </span>
                                         </div>
                                         <ul className='mt-6 -ml-4'>
+                                          
                                             <li className='text-lg font-light flex items-center gap-4 max-lg:ml-[12%] box-text'>
                                                 <span className='before:content-["•"] before:text-gray-400 before:mr-2 max-lg:hidden'>
-                                                    Figma
+                                                    Python
                                                 </span>
                                                 <Image
-                                                    src='/logos/figma-logo.jpg'
+                                                    src={`/logos/python-logo.jpg`}
                                                     alt='figma'
                                                     loading='lazy'
-                                                    width={40}
-                                                    height={40}
+                                                    width={30}
+                                                    height={30}
                                                     className='rounded-xl'
                                                 />
                                             </li>
@@ -381,7 +377,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                                                 Student
                                             </span>
                                             <span className='text-xs text-zinc-600 dark:text-zinc-300 lg:w-[50%] box-text'>
-                                                At Sunway College Kathmandu
+                                                At Sagarmatha College , IOST , Lalitpur
                                             </span>
                                         </div>
                                         <div className='ml-4 sm:ml-8 xl:ml-24 mt-2 flex gap-2 text-xs sm:text-sm text-green-600 dark:text-green-400 flex-col lg:flex-row lg:items-center box-text'>
@@ -449,8 +445,8 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                         id='image'
                         className='absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[280px] sm:w-[330px] md:w-[380px] lg:w-[400px]'
                     >
-                        <Image
-                            src={`/photo-${darkMode ? 'dark' : 'light'}.png`}
+                        {/* <Image
+                            src=""
                             alt='photo'
                             width={800}
                             height={600}
@@ -458,7 +454,7 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             quality={75}
                             sizes='(max-width: 640px) px, (max-width: 768px) 300px, (max-width: 1024px) 380px, 400px'
                             // className='w-full h-auto'
-                        />
+                        /> */}
                     </div>
                     <div
                         id='social'
@@ -470,10 +466,9 @@ const Profile = ({ darkMode }: { darkMode: boolean }) => {
                             rel='noopener noreferrer'
                             className='hover:scale-125 transition-transform duration-300 cursor-pointer group relative'
                         >
-                            <FaXTwitter className='social-icon' size={20} />
-                            <span className='absolute left-8 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap'>
-                                Twitter
-                            </span>
+                            
+                           
+                            
                         </Link>
                         <Link
                             href='https://github.com/bcuAbhishek'

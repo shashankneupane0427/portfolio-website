@@ -29,14 +29,7 @@ export const NavbarProjects = () => {
                     transition={{ delay: index * 0.1 }}
                 >
                     <div className='relative flex-shrink-0 w-16 h-16 overflow-hidden rounded-lg'>
-                        <Image
-                            src={project.image || ''}
-                            alt={project.title}
-                            loading='lazy'
-                            layout='fill'
-                            objectFit='cover'
-                            className='transition-transform duration-500 group-hover:scale-110 border border-slate-300'
-                        />
+                        
                         <div className='absolute inset-0' />
                     </div>
 

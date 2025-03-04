@@ -1,7 +1,6 @@
 'use client';
 
 import About from '@/components/About';
-import InitialLoad from '@/components/InitialLoad';
 import Navbar from '@/components/Navbar';
 import Profile from '@/components/Profile';
 import Projects from '@/components/Projects';
@@ -14,7 +13,8 @@ import { useWindowScroll } from 'react-use';
 const Page = () => {
     useMomentumScroll();
     const [animationComplete, setAnimationComplete] = useState(false);
-    const [darkMode, setDarkMode] = useState<boolean | null>(null);
+ 
+
 
     const [isNavVisible, setIsNavVisible] = useState(true);
     const navContainerRef = useRef(null);
@@ -45,54 +45,30 @@ const Page = () => {
         });
     }, [isNavVisible]);
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            let storedDarkMode = localStorage.getItem('darkMode');
-            if (storedDarkMode === null) {
-                localStorage.setItem('darkMode', 'true');
-                storedDarkMode = 'true';
-            }
-            setDarkMode(storedDarkMode === 'true');
-        }
-    }, []);
-
-    useEffect(() => {
-        if (darkMode !== null) {
-            if (darkMode) {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-            }
-            localStorage.setItem('darkMode', darkMode.toString());
-        }
-    }, [darkMode]);
-
-    if (darkMode === null) return null;
+   
 
     return (
         <div className='relative'>
             <Particles
                 className='fixed inset-0 -z-10'
                 quantity={300}
-                color={darkMode ? '#fff' : '#000'}
+           
                 staticity={10}
                 ease={100}
                 size={0.3}
             />
 
-            {!animationComplete ? (
-                <InitialLoad onComplete={() => setAnimationComplete(true)} />
-            ) : (
+          
                 <>
                     <div
                         ref={navContainerRef}
                         className='fixed z-50 inset-x-0 top-0 max-w-[100%] md:max-w-[90%] mx-auto max-sm:mt-2'
                     >
-                        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+                        <Navbar  />
                     </div>
                     <div id='profile'>
                         <div className='fixed inset-x-0 top-0 max-w-[1320px] w-[90%] mx-auto'>
-                            <Profile darkMode={darkMode} />
+                            <Profile  />
                         </div>
                     </div>
                     <div className='h-screen' />{' '}
@@ -100,7 +76,7 @@ const Page = () => {
                         <Particles
                             className='absolute inset-0'
                             quantity={300}
-                            color={darkMode ? '#fff' : '#000'}
+                     
                             staticity={10}
                             ease={100}
                             size={0.3}
@@ -121,7 +97,7 @@ const Page = () => {
                         </div>
                     </div>
                 </>
-            )}
+         
         </div>
     );
 };

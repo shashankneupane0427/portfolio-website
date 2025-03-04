@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className='relative'>
             <h1 className='text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mt-6'>
-                Creating Digital Experiences
+                Projects Portfolio
             </h1>
             <div>
                 <HoverEffect

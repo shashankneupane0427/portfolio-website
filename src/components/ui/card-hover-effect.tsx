@@ -19,6 +19,7 @@ export const HoverEffect = ({
         description: string;
         descriptionLink: string | null;
         image?: string;
+      
         link: string | null;
         video?: string;
         stack?: string[];
@@ -83,7 +84,7 @@ export const HoverEffect = ({
                             )}
                         </AnimatePresence>
                         <Card>
-                            <div className='relative w-full aspect-[16/9] overflow-hidden rounded-xl border border-slate-300 dark:border-slate-700'>
+                            <div className='relative w-full aspect-[16/9] overflow-hidden rounded-sm border border-slate-300 dark:border-slate-700'>
                                 {item.video ? (
                                     <video
                                         src={item.video}
@@ -97,16 +98,16 @@ export const HoverEffect = ({
                                     <Image
                                         src={item.image || ''}
                                         alt={item.title}
-                                        loading='lazy'
+                                       
                                         fill
-                                        className='object-cover transition-transform duration-500 ease-out group-hover:scale-105'
+                                        className='object-cover transition-transform duration-500 ease-out  group-hover:scale-105'
                                         sizes='(max-width: 768px) 100vw, 50vw'
                                     />
                                 )}
                             </div>
                             <div className='flex flex-col gap-4 mt-4'>
-                                <CardTitle className='border-b border-slate-200 dark:border-slate-700 pb-4'>
-                                    {item.title}
+                                <CardTitle className='border-b flex px-1 border-slate-200 dark:border-slate-700 pb-4'>
+                                    {item.title}   
                                 </CardTitle>
                                 <CardStack>{item.stack}</CardStack>
                                 <CardDescription className='border-b border-slate-200 dark:border-slate-700 pb-4'>

@@ -3,6 +3,7 @@ export interface Project {
     description: string;
     descriptionLink: string | null; 
     image?: string;
+ 
     link: string | null; 
     video?: string;
     stack?: string[];
@@ -10,42 +11,46 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        title: 'PathaoSync',
-        video: '/videos/pathao-sync.mp4',
-        image: '/projects/pathao-sync.png',
+        title: 'ING Tours and Travels',
+        image: '/projects/ingtravels.png',
+   
         description:
-            'A <strong>full-stack ride-hailing</strong> application that connects riders with nearby drivers, similar to Uber/Ola. The application provides <strong>real-time location tracking</strong>, <strong>ride matching</strong>, and <strong>fare calculation</strong>.',
-        descriptionLink: 'https://github.com/bcuAbhishek/PathaoSync',
-        link: 'https://github.com/bcuAbhishek/PathaoSync',
-        stack: ['React JS', 'Node JS', 'Express JS', 'MongoDB', 'Socket.io'],
+            'ING Travels is your go-to platform for planning unforgettable journeys! Discover a <strong>seamless</strong> and <strong>user-friendly</strong> travel experience with <strong>curated itineraries</strong>, <strong>booking services</strong>, and <strong>destination guides</strong>.',
+        descriptionLink: '#',
+        link: 'https://www.ingtoursandtravels.com/',
+        stack: ['React JS', 'Tailwind CSS', 'React Router'],
     },
     {
+        title: 'Climate Care Network',
+        image: '/projects/ccn.png',
+
+        description:
+            '<strong>Climate Care Network (CCN)</strong> is the official website of the organization <strong>Climate Care Network</strong>, dedicated to actively raising awareness about <strong>climate change</strong> in the <strong>modern era</strong>.',
+        descriptionLink: 'https://github.com/shashankneupane0427/Project-Climate',
+        link: 'https://project-climate-vert.vercel.app/',
+        stack: ['React JS', 'Next JS', 'Tailwind CSS'],
+    },
+ 
+   
+    {
         title: 'Portfolio Website',
-        image: '/projects/portfolio.png',
+        image: '/projects/personal.png',
+    
         description:
             'Portfolio website built with <strong>Next.js</strong>, <strong>Aceternity UI</strong>, <strong>Shadcn UI</strong>, and <strong>GSAP</strong> animations.',
-        descriptionLink: null,
-        link: 'https://obuseklearns.me',
+        descriptionLink: "https://github.com/shashankneupane0427/Portfolio-Website",
+        link: 'https://www.suryashashank.com.np/',
         stack: ['Next JS', 'Aceternity UI', 'Shadcn UI', 'GSAP'],
     },
 
     {
-        title: 'Admin Dashboard',
-        image: '/projects/dashboard.png',
-        description:
-            'A <strong>modern, responsive</strong> admin dashboard built with <strong>React</strong> and <strong>Tailwind CSS</strong>, featuring <strong>real-time analytics</strong>, <strong>data visualization</strong>, and a clean user interface.',
-        descriptionLink: 'https://github.com/bcuAbhishek/React-Admin-Dashboard',
-        link: 'https://bcuabhishek.github.io/React-Admin-Dashboard/',
-        stack: ['React JS', 'Tailwind CSS', 'React Router'],
-    },
+        title: 'Eco Home',
+        image: '/projects/eco.png',
 
-    {
-        title: 'Twitter Clone',
-        image: '/projects/twitter.jpg',
         description:
-            'A <strong>full-stack Twitter clone</strong> built with <strong>React</strong>, <strong>Firebase</strong>, and <strong>Tailwind CSS</strong>, featuring real-time updates and user authentication.',
-        descriptionLink: null,
-        link: null,
+            '<strong>Full-stack real estate platform</strong> built with the <strong>MERN stack</strong>. Features <strong>property listings</strong>, <strong>booking property</strong>, <strong>user authentication</strong>, and <strong>seamless search functionality</strong>.',
+        descriptionLink: "https://github.com/shashankneupane0427/Eco-Home",
+        link: "https://eco-home-real-estate.vercel.app/",
         stack: ['React JS', 'MongoDB', 'Tailwind CSS', 'Express JS', 'Node JS'],
     },
 ];
