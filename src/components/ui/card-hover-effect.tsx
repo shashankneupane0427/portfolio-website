@@ -98,10 +98,10 @@ export const HoverEffect = ({
                                     <Image
                                         src={item.image || ''}
                                         alt={item.title}
-                                       
-                                        fill
-                                        className='object-cover transition-transform duration-500 ease-out  group-hover:scale-105'
-                                        sizes='(max-width: 768px) 100vw, 50vw'
+                                        width={900}
+                                        height={100}
+                                        className='object-cover transition-transform duration-500 ease-out'
+                                        sizes=' 100vw, 60vw'
                                     />
                                 )}
                             </div>
