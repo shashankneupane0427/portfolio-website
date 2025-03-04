@@ -1,6 +1,5 @@
 import { logos, projects } from '@/utils';
 import { IconCloud } from './ui/icon-cloud';
-import Image from 'next/image';
 import { LuArrowUpRight } from 'react-icons/lu';
 import { motion } from 'framer-motion';
 

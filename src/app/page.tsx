@@ -12,7 +12,7 @@ import { useWindowScroll } from 'react-use';
 
 const Page = () => {
     useMomentumScroll();
-    const [animationComplete, setAnimationComplete] = useState(false);
+
  
 
 

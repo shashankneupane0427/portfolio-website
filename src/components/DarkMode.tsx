@@ -9,9 +9,7 @@ interface DarkModeProps {
 }
 
 const DarkMode: React.FC<DarkModeProps> = ({ onToggleDarkMode, darkMode }) => {
-    const handleDarkMode = () => {
-        onToggleDarkMode(!darkMode);
-    };
+  
 
     return (
         <ClickEffect>

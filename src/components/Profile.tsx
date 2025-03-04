@@ -11,7 +11,7 @@ import { FaGithub} from 'react-icons/fa6';
 import { IoMdMail } from 'react-icons/io';
 import Link from 'next/link';
 
-const Profile = ({ darkMode }: { darkMode: boolean }) => {
+const Profile = () => {
     useGSAP(() => {
         const spans = document.querySelectorAll('.hover-text span');
 
