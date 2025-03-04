@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import DarkMode from './DarkMode';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { Menu, MenuItem } from '@/components/ui/navbar-menu';
 import { IoCloseOutline } from 'react-icons/io5';
@@ -18,12 +17,8 @@ import Link from 'next/link';
 
 gsap.registerPlugin(ScrollToPlugin);
 
-interface NavbarProps {
-    darkMode: boolean;
-    setDarkMode: (mode: boolean) => void;
-}
 
-const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
+const Navbar = () => {
     const [active, setActive] = useState<string | null>(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
@@ -76,10 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
         });
 
         // Initial setup for social icons and darkmode
-        gsap.set(['.mobile-social-icon', '.mobile-darkmode'], {
-            opacity: 0,
-            y: 20,
-        });
+      
 
         gsap.set('.mobile-social-line', {
             scaleY: 0,
@@ -121,13 +113,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
             });
 
             // Animate darkmode button
-            gsap.to('.mobile-darkmode', {
-                opacity: 1,
-                y: 0,
-                duration: 0.4,
-                ease: 'power3.out',
-                delay: 0.4,
-            });
+         
 
             // Animate social icons
             gsap.to('.mobile-social-icon', {
@@ -286,10 +272,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                 </div>
 
                 <div className='max-md:hidden'>
-                    <DarkMode
-                        darkMode={darkMode}
-                        onToggleDarkMode={setDarkMode}
-                    />
+                  
                 </div>
 
                 {/* Mobile menu button */}
@@ -399,10 +382,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                         </motion.li>
 
                         <div className='mobile-darkmode transform-gpu'>
-                            <DarkMode
-                                darkMode={darkMode}
-                                onToggleDarkMode={setDarkMode}
-                            />
+                            
                         </div>
                     </ul>
 
