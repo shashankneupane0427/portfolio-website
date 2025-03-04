@@ -3,12 +3,9 @@
 import React from 'react';
 import ClickEffect from './ui/ClickEffect';
 
-interface DarkModeProps {
-    onToggleDarkMode: (darkMode: boolean) => void;
-    darkMode: boolean;
-}
 
-const DarkMode: React.FC<DarkModeProps> = ({ onToggleDarkMode, darkMode }) => {
+
+const DarkMode: React.FC = () => {
   
 
     return (

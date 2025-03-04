@@ -58,7 +58,6 @@ export const projects: Project[] = [
 export const logos = [
     {
         src: '/logos/figma-logo.jpg',
-        srcDark: '/logos/figma-dark.jpg',
         alt: 'Figma Logo',
     },
     {

@@ -4,7 +4,6 @@ import About from '@/components/About';
 import Navbar from '@/components/Navbar';
 import Profile from '@/components/Profile';
 import Projects from '@/components/Projects';
-import { Particles } from '@/components/ui/particles';
 import { useMomentumScroll } from '@/hooks/useMomentumScroll';
 import gsap from 'gsap';
 import React, { useEffect, useRef, useState } from 'react';
@@ -49,14 +48,7 @@ const Page = () => {
 
     return (
         <div className='relative'>
-            <Particles
-                className='fixed inset-0 -z-10'
-                quantity={300}
-           
-                staticity={10}
-                ease={100}
-                size={0.3}
-            />
+          
 
           
                 <>
@@ -73,14 +65,7 @@ const Page = () => {
                     </div>
                     <div className='h-screen' />{' '}
                     <div className='relative z-20'>
-                        <Particles
-                            className='absolute inset-0'
-                            quantity={300}
-                     
-                            staticity={10}
-                            ease={100}
-                            size={0.3}
-                        />
+                        
                         <div
                             id='projects'
                             className='border-t-2 dark:border-white border-slate-300 h-auto rounded-t-[3rem] bg-white dark:bg-black'
