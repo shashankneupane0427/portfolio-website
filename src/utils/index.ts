@@ -21,6 +21,16 @@ export const projects: Project[] = [
         stack: ['React JS', 'Tailwind CSS', 'React Router'],
     },
     {
+        title: 'Nepscape',
+        image: '/projects/nepscape.png',
+    
+        description:
+            'Nepscape a cutting-edge <strong> software company </strong> dedicated to building innovative and scalable digital solutions. Our <strong> official website </strong>, built with Next.js, showcases our expertise, services, and vision for the tech-driven future.',
+        descriptionLink: "#",
+        link: 'https://nepscape.vercel.app/',
+        stack: ['Next JS', 'React JS','TypeScript', 'Tailwind CSS'],
+    },
+    {
         title: 'Climate Care Network',
         image: '/projects/ccn.png',
 
@@ -30,18 +40,7 @@ export const projects: Project[] = [
         link: 'https://project-climate-vert.vercel.app/',
         stack: ['React JS', 'Next JS', 'Tailwind CSS'],
     },
- 
-   
-    {
-        title: 'Portfolio Website',
-        image: '/projects/personal.png',
-    
-        description:
-            'Portfolio website built with <strong>Next.js</strong>, <strong>Aceternity UI</strong>, <strong>Shadcn UI</strong>, and <strong>GSAP</strong> animations.',
-        descriptionLink: "https://github.com/shashankneupane0427/Portfolio-Website",
-        link: 'https://www.suryashashank.com.np/',
-        stack: ['Next JS', 'Aceternity UI', 'Shadcn UI', 'GSAP'],
-    },
+
 
     {
         title: 'Eco Home',
