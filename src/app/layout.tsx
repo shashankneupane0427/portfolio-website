@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Shashank Neupane",
     description: 'Shashank Neupane | Portfolio',
     icons: {
-        icon: '/logo.png'
+        icon: '/favicon.ico'
     },
 };
 
