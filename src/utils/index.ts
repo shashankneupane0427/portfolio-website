@@ -37,7 +37,7 @@ export const projects: Project[] = [
         description:
             '<strong>Climate Care Network (CCN)</strong> is the official website of the organization <strong>Climate Care Network</strong>, dedicated to actively raising awareness about <strong>climate change</strong> in the <strong>modern era</strong>.',
         descriptionLink: 'https://github.com/shashankneupane0427/Project-Climate',
-        link: 'https://project-climate-vert.vercel.app/',
+        link: 'https://climatecarenetwork.vercel.app/',
         stack: ['React JS', 'Next JS', 'Tailwind CSS'],
     },
 
