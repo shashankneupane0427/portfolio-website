@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+<img src="./public/ssn.png">
 
-First, run the development server:
+Welcome to my portfolio! This repository contains the source code for my personal portfolio website, built to showcase my skills, projects, and experiences as a Full-stack Web Developer and AI enthusiast.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is built with the following technologies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** – for server-side rendering and static site generation.
+- **React** – for building interactive UI components.
+- **TypeScript** – for type-safe and scalable development.
+- **Tailwind CSS** – for rapid and responsive styling.
+- **Acertinity UI** – for beautiful and reusable UI components.
+- **Framer Motion** – for smooth animations and interactive UI effects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- Fully responsive design for a seamless experience on all devices.
+- Showcases my skills, projects, and resume.
+- Interactive animations and smooth user experience.
+- SEO-optimized for better search engine visibility.
+- Fast loading times with Next.js static optimization.
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Installation & Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**
+   ```sh
+   https://github.com/shashankneupane0427/Portfolio-Website.git
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Open `http://localhost:3000` in your browser to view the portfolio.
+
+## 🛠 Deployment
+
+This portfolio is deployed using **Vercel** with a custom domain: **[suryashashank.com.np](https://suryashashank.com.np)**.
+
+## 📜 License
+
+This project is licensed under the **MIT License** 
+
+## 📬 Contact
+
+If you have any questions or want to collaborate, feel free to reach out:
+- **Email:** your-email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/shashankneupane0427/)
+- **Website:** [Your Portfolio](https://suryashashank.com.np)
+
+Thank you for visiting! 🚀
+
