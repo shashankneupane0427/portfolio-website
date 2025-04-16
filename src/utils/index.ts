@@ -43,13 +43,13 @@ export const projects: Project[] = [
 
 
     {
-        title: 'Eco Home',
-        image: '/projects/eco.png',
+        title: 'Sajilo Supplements',
+        image: '/projects/sajilo.png',
 
         description:
-            '<strong>Full-stack real estate platform</strong> built with the <strong>MERN stack</strong>. Features <strong>property listings</strong>, <strong>booking property</strong>, <strong>user authentication</strong>, and <strong>seamless search functionality</strong>.',
-        descriptionLink: "https://github.com/shashankneupane0427/Eco-Home",
-        link: "https://eco-home-real-estate.vercel.app/",
+            '<strong>Fitness</strong> supplement eCommerce store built with the MERN stack (MongoDB, Express, React, Node.js). Features include user authentication, product listings, cart & checkout, order tracking, and SEO optimization for better search ranking.',
+        descriptionLink: "#",
+        link: "https://sajilosupplements.vercel.app/",
         stack: ['React JS', 'MongoDB', 'Tailwind CSS', 'Express JS', 'Node JS'],
     },
 ];
