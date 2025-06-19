@@ -54,6 +54,12 @@ const Portfolio: React.FC = () => {
 
   
 
+
+
+
+
+  
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
